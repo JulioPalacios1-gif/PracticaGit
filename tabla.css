@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+}
+
+#main-container{
+    margin: 150px auto;
+    width: auto;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: solid 1px black;
+}
+
+th{
+    background-color: rgb(255, 166, 0);
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: wheat;
+    color: black;
+}
